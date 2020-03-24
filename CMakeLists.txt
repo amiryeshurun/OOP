@@ -5,4 +5,11 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(OOP
         1/main.cpp
+        1/PartyMember.cpp
+        1/PartyMember.h
+        1/Party.cpp
+        1/Party.h
+        1/Knesset.cpp
+        1/Knesset.h
+        1/example.cpp
         )
