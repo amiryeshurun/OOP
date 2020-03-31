@@ -12,4 +12,9 @@ add_executable(OOP
         1/Knesset.cpp
         1/Knesset.h
         1/example.cpp
+        2/Course.cpp
+        2/Course.h
+        2/Student.h
+        2/Student.cpp
+        2/main.cpp
         )

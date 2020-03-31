@@ -34,21 +34,21 @@
  * - ensure that the PM is not the speaker of the knesset V
  */
 
-#include "PartyMember.h"
-#include "Knesset.h"
-#include <iostream>
-
-using namespace std;
-
-int main(){
-    Knesset knesset(10);
-    Party party("together");
-    PartyMember partyMember("Amir", 19);
-    party.addPartyMember(&partyMember);
-    PartyMember partyMember1("Itay", 40);
-    partyMember1.setParty(&party);
-    knesset.addParty(&party);
-    knesset.addPartyMember(&partyMember1);
-
-    cout << knesset.getPartyAtIdx(0)->getMembers()[1]->getName() << endl;
-}
+//#include "PartyMember.h"
+//#include "Knesset.h"
+//#include <iostream>
+//
+//using namespace std;
+//
+//int main(){
+//    Knesset knesset(10);
+//    Party party("together");
+//    PartyMember partyMember("Amir", 19);
+//    party.addPartyMember(&partyMember);
+//    PartyMember partyMember1("Itay", 40);
+//    partyMember1.setParty(&party);
+//    knesset.addParty(&party);
+//    knesset.addPartyMember(&partyMember1);
+//
+//    cout << knesset.getPartyAtIdx(0)->getMembers()[1]->getName() << endl;
+//}
