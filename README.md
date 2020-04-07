@@ -17,3 +17,10 @@ Second Lesson:
 I have uploaded the files from the seocnd lesson to the directory called "2". The notebook with my scraches is also available there (the name of the file is `Sadna 2.pdf`).
 
 ---
+
+Third Lesson:
+
+The code of the third lesson is now available at the directory named "3".
+If there are any questions, feel free to ask me.
+
+---
