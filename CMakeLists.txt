@@ -17,4 +17,9 @@ add_executable(OOP
         2/Student.h
         2/Student.cpp
         2/main.cpp
+        3/main.cpp
+        3/Employee.cpp
+        3/Employee.h
+        3/Company.cpp
+        3/Company.h
         )

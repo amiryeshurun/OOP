@@ -10,3 +10,12 @@
  * Each class should have a print method to print all of the members.
  */
 
+#include "Company.h"
+
+
+int main(){
+    Company c = "Colman";
+    Employee amir("amir", 19, 10);
+    c.print();
+}
+
