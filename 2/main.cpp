@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int main()
+int main_less_2()
 {
     {
         Course c("calc 2", 70);
