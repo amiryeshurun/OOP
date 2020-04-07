@@ -11,3 +11,9 @@ function which I did not implement due to time constraints.
 If you have any problems understanding the code or implementing something, please let me know.
 
 ---
+
+Second Lesson:
+
+I have uploaded the files from the seocnd lesson to the directory called "2". The notebook with my scraches is also available there (the name of the file is `Sadna 2.pdf`).
+
+---
