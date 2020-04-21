@@ -13,7 +13,7 @@
 #include "Company.h"
 
 
-int main(){
+int main_test(){
     Company c = "Colman";
     Employee amir("amir", 19, 10);
     c.print();
