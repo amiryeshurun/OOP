@@ -23,4 +23,8 @@ add_executable(OOP
         3/Company.cpp
         3/Company.h
         4/main.cpp
+        4/Node.cpp
+        4/Node.h
+        4/LinkedList.cpp
+        4/LinkedList.h
         )

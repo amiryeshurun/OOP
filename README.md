@@ -24,3 +24,11 @@ The code of the third lesson is now available at the directory named "3".
 If there are any questions, feel free to ask me.
 
 ---
+
+Fourth Lesson:
+
+The code is available at the directory named "4". 
+Please try to implement the remove function. It should receive a pointer to a "Node" object
+and remove the element from the linked list.
+
+Good luck!
