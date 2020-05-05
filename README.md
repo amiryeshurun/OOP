@@ -14,7 +14,7 @@ If you have any problems understanding the code or implementing something, pleas
 
 Second Lesson:
 
-I have uploaded the files from the seocnd lesson to the directory called "2". The notebook with my scraches is also available there (the name of the file is `Sadna 2.pdf`).
+I have uploaded the files from the seocnd lesson to the directory called "2". The notebook with my scratches is also available there (the name of the file is `Sadna 2.pdf`).
 
 ---
 
@@ -32,3 +32,11 @@ Please try to implement the remove function. It should receive a pointer to a "N
 and remove the element from the linked list.
 
 Good luck!
+
+---
+
+Fifth Lesson:
+
+The code I wrote is available in the 5th folder. 
+I added an operator `std::ostream& operator<<(std::ostream& out, const String& str)` in `main.cpp` just to print the data of a string using cout (`cout << string << endl`).
+You will learn about it in upcoming lectures.
