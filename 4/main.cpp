@@ -16,7 +16,7 @@
  */
 
 
-int main() {
+int test_main() {
     {
         LinkedList lst;
         for (int i = 0; i < 10; i++)
