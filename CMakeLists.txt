@@ -27,8 +27,9 @@ add_executable(OOP
         4/Node.h
         4/LinkedList.cpp
         4/LinkedList.h
-        5/main.cpp
         5/String.cpp
         5/String.h
         5/IndexOutOfBounds.h
+        6/main.cpp
+        6/Shapes.h
         )

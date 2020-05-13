@@ -30,7 +30,7 @@ std::ostream& operator<<(std::ostream& out, const String& str){
     return out;
 }
 
-int main() {
+int test_main() {
     String s = "Amir";
     String s2 = "Yeshurun";
     String result = String("Hello").append(" ").append(s) + " " + s2;
