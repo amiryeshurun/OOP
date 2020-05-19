@@ -32,4 +32,5 @@ add_executable(OOP
         5/IndexOutOfBounds.h
         6/main.cpp
         6/Shapes.h
-        )
+        7/main.cpp
+        7/Expression.h 7/BinaryExpression.h 7/Plus.h 7/Number.h 7/Minus.h 7/Divide.h 7/Mult.h)
