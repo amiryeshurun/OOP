@@ -40,3 +40,12 @@ Fifth Lesson:
 The code I wrote is available in the 5th folder. 
 I added an operator `std::ostream& operator<<(std::ostream& out, const String& str)` in `main.cpp` just to print the data of a string using cout (`cout << string << endl`).
 You will learn about it in upcoming lectures.
+
+---
+
+Eighth Lesson:
+
+The code is available in the directory named `8`. 
+* The problem with the update function: since we were calling the update function from the Observable class, and passing the
+`this` pointer, the `typeid` of `*o` is Observable and not the specific class. I moved the notifyObservers functions, which calls 
+the update function, to the classes `Employee1` and `SecurityAlarm`.

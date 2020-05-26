@@ -18,7 +18,7 @@ add_executable(OOP
         2/Student.cpp
         2/main.cpp
         3/main.cpp
-        3/Employee.cpp
+        3/Employee1.cpp
         3/Employee.h
         3/Company.cpp
         3/Company.h
@@ -33,4 +33,5 @@ add_executable(OOP
         6/main.cpp
         6/Shapes.h
         7/main.cpp
-        7/Expression.h 7/BinaryExpression.h 7/Plus.h 7/Number.h 7/Minus.h 7/Divide.h 7/Mult.h)
+        7/Expression.h 7/BinaryExpression.h 7/Plus.h 7/Number.h 7/Minus.h 7/Divide.h 7/Mult.h
+        8/Alarm.h 8/Observer.h 8/Observable.h 8/SecurityAlarm.h 8/main.cpp 8/Manager.h 8/Employee1.h)
