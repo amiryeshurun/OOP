@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int main() {
+int main_8() {
     SecurityAlarm securityAlarm;
     Employee1 employee1("Amir");
     Manager manager;

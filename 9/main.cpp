@@ -2,21 +2,23 @@
 
 /*
  * Create the following classes:
- * Device: screen size,  device name, price, memory, brand
+ * Device: screen size, device name, price, memory, brand
  * Laptop: keyboard size
  * TouchableDevice: minimumPressure
- * TouchableLaptap: Laptop + TouchableDevice
+ * TouchableLaptop: Laptop + TouchableDevice
  */
 
 
-// Create a polomorphic print function
-// Create an array of devices (inside the main function) and allow the user to choose between:
-// 1: insert a laptop
-// 2: insert a touchable device
-// 3: insert a touchable laptop
-// 4: show the current amount of touchable devices (including touchable laptops)
-// 5: same for laptops
+#include "TouchableLaptop.h"
 
-// The last two should be implemented as global functions
+// "fake" << operator
+ostream& operator<<(ostream& out, Device& d) {
+    d.print();
+    return out;
+}
 
+int main() {
+    TouchableLaptop touchableLaptop(1, 2, "myDevice", 90, 90, "Device Inc", 5, 7, 10);
+    cout << touchableLaptop << endl;
+}
 

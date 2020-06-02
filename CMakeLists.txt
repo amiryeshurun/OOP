@@ -34,4 +34,4 @@ add_executable(OOP
         6/Shapes.h
         7/main.cpp
         7/Expression.h 7/BinaryExpression.h 7/Plus.h 7/Number.h 7/Minus.h 7/Divide.h 7/Mult.h
-        8/Alarm.h 8/Observer.h 8/Observable.h 8/SecurityAlarm.h 8/main.cpp 8/Manager.h 8/Employee1.h 9/main.cpp)
+        8/Alarm.h 8/Observer.h 8/Observable.h 8/SecurityAlarm.h 8/main.cpp 8/Manager.h 8/Employee1.h 9/main.cpp 9/Device.h 9/Pair.h 9/Laptop.h 9/TouchableDevice.h 9/TouchableLaptop.h)
