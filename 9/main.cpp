@@ -17,8 +17,9 @@ ostream& operator<<(ostream& out, Device& d) {
     return out;
 }
 
-int main() {
+int main_9() {
     TouchableLaptop touchableLaptop(1, 2, "myDevice", 90, 90, "Device Inc", 5, 7, 10);
     cout << touchableLaptop << endl;
+    return 0;
 }
 
