@@ -1,9 +1,21 @@
 #include <iostream>
+#include <fstream>
+#include "Person.h"
 
-int main() {
-    int x;
-    std::cin >> x;
-    std::cout << x << std::endl;
-    std::cout << "Hello, World!" << std::endl;
+using namespace std;
+
+ostream& operator<<(ostream& out, const Person& p) {
+    p.printTxt(out);
+    return out;
+}
+
+int main_10a() {
+    Person amir("amir", 19);
+    ofstream out;
+
+    out.open("text.txt", ios::out);
+
+    out << amir;
+    out.close();
     return 0;
 }
