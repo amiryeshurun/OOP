@@ -4,4 +4,6 @@ project(OOP)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(OOP
-10/main.cpp 10/main2.cpp)
+11/main.cpp
+11/BinaryTree.h
+11/Person.h )

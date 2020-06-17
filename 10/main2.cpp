@@ -19,16 +19,16 @@ using namespace std;
 // }
 
 template<class T>
-const T& Min(const T& t1, const T& t2) {
-    if(t1 < t2) 
+const T& Max(const T& t1, const T& t2) {
+    if(t1 > t2) 
         return t1;
     else
         return t2;
 }
 
-int main() {
+int main_2a() {
     Person amir("amir", 10);
     Person yoav("Yoav", 40);
     
-    cout << Min<Person>(amir, yoav).getName() << endl; 
+    cout << Max<Person>(amir, yoav).getName() << endl; 
 }
